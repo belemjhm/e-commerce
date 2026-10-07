@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Finalizar compra - Oh My Dog!</title>
+
+    <link rel="stylesheet" href="../assets/css/estilos.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Finalizar compra</h1>
+    </header>
+
+
+    <main>
+
+        <section class="checkout">
+
+            <h2>Datos de entrega</h2>
+
+            <form id="formulario-compra">
+
+                <div class="campo">
+                    <label for="nombre">Nombre completo</label>
+
+                    <input
+                        type="text"
+                        id="nombre"
+                        name="nombre"
+                        placeholder="Ingresa tu nombre completo"
+                        required
+                    >
+                </div>
+
+
+                <div class="campo">
+                    <label for="telefono">Teléfono</label>
+
+                    <input
+                        type="tel"
+                        id="telefono"
+                        name="telefono"
+                        placeholder="Ingresa tu número de teléfono"
+                        required
+                    >
+                </div>
+
+
+                <div class="campo">
+                    <label for="direccion">Dirección</label>
+
+                    <input
+                        type="text"
+                        id="direccion"
+                        name="direccion"
+                        placeholder="Calle, número y colonia"
+                        required
+                    >
+                </div>
+
+
+                <div class="campo">
+                    <label for="ciudad">Ciudad</label>
+
+                    <input
+                        type="text"
+                        id="ciudad"
+                        name="ciudad"
+                        placeholder="Ingresa tu ciudad"
+                        required
+                    >
+                </div>
+
+
+                <div class="campo">
+                    <label for="codigo-postal">Código postal</label>
+
+                    <input
+                        type="text"
+                        id="codigo-postal"
+                        name="codigo-postal"
+                        placeholder="Ingresa tu código postal"
+                        required
+                    >
+                </div>
+
+            </form>
+
+
+            <!-- RESUMEN DEL PEDIDO -->
+
+            <section class="resumen-checkout">
+
+                <h2>Resumen de tu pedido</h2>
+
+                <div id="productos-checkout">
+                    <!-- Los productos aparecerán aquí -->
+                </div>
+
+                <div class="linea-resumen">
+                    <p>Subtotal</p>
+                    <span id="subtotal-checkout">$0.00</span>
+                </div>
+
+                <div class="linea-resumen">
+                    <p>Envío</p>
+                    <span id="envio-checkout">$60.00</span>
+                </div>
+
+                <div class="total">
+                    <h3>Total</h3>
+                    <h3 id="total-checkout">$0.00</h3>
+                </div>
+
+                <button type="submit" form="formulario-compra" id="btn-continuar">
+                    Continuar
+                </button>
+
+            </section>
+
+        </section>
+
+</main>
+
+<script src="../assets/js/checkout.js"></script>
+
+</body>
+
+</html>

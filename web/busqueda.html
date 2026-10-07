@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/estilos.css">
+    <title>Buscar</title>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><img src="../imgs/logo.png" alt="Logo de Oh My Dog"></li>
+                <li><h1>Oh My Dog!</h1></li>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="quienes-somos.html">Quiénes somos</a></li>
+                <li><a href="catalogo.html">Catálogo</a></li>
+                <li><a href="carrito.html"><img src="../imgs/carrito.png" alt="Carrito" id="op_img"></a></li>
+                <li><a href="busqueda.html"><img src="../imgs/lupa.png" alt="Buscar" id="op_img"></a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main class="pagina-busqueda">
+
+            <h2>Búsqueda de productos</h2>
+
+
+        <section class="barra-busqueda">
+
+            <input type="text" id="campo-busqueda" placeholder="camisas" value="camisas">
+
+            <button id="btn-buscar">Buscar</button>
+
+        </section>
+
+
+        <section class="resultados-busqueda">
+
+            <div class="resultado-titulo">
+                <span class="icono-busqueda">⌕</span>
+
+                <div>
+                    <h3>Resultados para la búsqueda de "camisas"</h3>
+                    <p>Se encontraron 4 productos.</p>
+                </div>
+
+            </div>
+
+
+            <div class="productos-busqueda">
+
+                <article class="producto-busqueda">
+
+                    <div class="imagen-producto">
+                        <img src="../imgs/camisa-vaquera.jpg" alt="Camisa vaquera para perro">
+                    </div>
+
+                    <h4>Camisa vaquera</h4>
+
+                    <p class="precio-producto">$180.00</p>
+
+                    <button class="btn-producto">Agregar al carrito</button>
+
+                </article>
+
+
+                <article class="producto-busqueda">
+
+                    <div class="imagen-producto">
+                        <img src="../imgs/camisa-cuadros.jpg" alt="Camisa de cuadros para perro">
+                    </div>
+
+                    <h4>Camisa de cuadros</h4>
+
+                    <p class="precio-producto">$160.00</p>
+
+                    <button class="btn-producto">Agregar al carrito</button>
+
+                </article>
+
+
+                <article class="producto-busqueda">
+
+                    <div class="imagen-producto">
+                        <img src="../imgs/camisa-ligera.jpg" alt="Camisa ligera para perro">
+                    </div>
+
+                    <h4>Camisa ligera</h4>
+
+                    <p class="precio-producto">$150.00</p>
+
+                    <button class="btn-producto">Agregar al carrito</button>
+
+                </article>
+
+
+                <article class="producto-busqueda">
+
+                    <div class="imagen-producto">
+                        <img src="../imgs/camisa-deportiva.jpg" alt="Camisa deportiva para perro">
+                    </div>
+
+                    <h4>Camisa deportiva</h4>
+
+                    <p class="precio-producto">$170.00</p>
+
+                    <button class="btn-producto">Agregar al carrito</button>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <section class="no-encontrado">
+
+            <div class="icono-lampara">
+            </div>
+
+            <div class="texto-no-encontrado">
+                <h3>¿No encontraste lo que buscabas?</h3>
+                <p>Puedes intentar con otras palabras clave o revisar nuestro catálogo completo.</p>
+            </div>
+
+            <a href="catalogo.html" class="btn-catalogo">Ver catálogo</a>
+
+        </section>
+
+    </main>
+
+
+</body>
+</html>

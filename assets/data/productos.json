@@ -1,0 +1,271 @@
+[
+    {
+        "id": 1,
+        "nombre": "Transportadora Premium",
+        "precio": 899,
+        "imagen": "AC1.jpg",
+        "categoria": "accesorios"
+    },
+    {
+        "id": 2,
+        "nombre": "Pechera Rosa Deluxe",
+        "precio": 349,
+        "imagen": "AC2.jpg",
+        "categoria": "accesorios"
+    },
+    {
+        "id": 3,
+        "nombre": "Collar Elegante Tipo Corbata",
+        "precio": 279,
+        "imagen": "AC3.jpg",
+        "categoria": "accesorios"
+    },
+    {
+        "id": 4,
+        "nombre": "Collar Brillante Fashion",
+        "precio": 249,
+        "imagen": "AC4.png",
+        "categoria": "accesorios"
+    },
+    {
+        "id": 5,
+        "nombre": "Collar Clásico con Campana",
+        "precio": 189,
+        "imagen": "AC5.png",
+        "categoria": "accesorios"
+    },
+    {
+        "id": 6,
+        "nombre": "Botitas Protectoras Antideslizantes",
+        "precio": 459,
+        "imagen": "AC6.png",
+        "categoria": "accesorios"
+    },
+    {
+        "id": 7,
+        "nombre": "Sombrero Fashion para Mascota",
+        "precio": 299,
+        "imagen": "AC7.png",
+        "categoria": "accesorios"
+    },
+    {
+        "id": 8,
+        "nombre": "Set de Moños Multicolor",
+        "precio": 149,
+        "imagen": "AC8.jpg",
+        "categoria": "accesorios"
+    },
+    {
+        "id": 9,
+        "nombre": "Moño Elegante Morado",
+        "precio": 89,
+        "imagen": "AC9.jpg",
+        "categoria": "accesorios"
+    },
+    {
+        "id": 10,
+        "nombre": "Mochila Correa para Paseo",
+        "precio": 529,
+        "imagen": "AC10.jpg",
+        "categoria": "accesorios"
+    },
+    {
+        "id": 11,
+        "nombre": "Gorra Deportiva",
+        "precio": 179,
+        "imagen": "AC11.jpg",
+        "categoria": "accesorios"
+    },
+    {
+        "id": 12,
+        "nombre": "Chaleco Arnés Reforzado",
+        "precio": 389,
+        "imagen": "AC12.jpg",
+        "categoria": "accesorios"
+    },
+
+    {
+        "id": 13,
+        "nombre": "Snacks Deliciosos Surtidos",
+        "precio": 150,
+        "imagen": "A1.jpg",
+        "categoria": "alimento"
+    },
+    {
+        "id": 14,
+        "nombre": "Pack Nutrición Natural",
+        "precio": 400,
+        "imagen": "A2.jpg",
+        "categoria": "alimento"
+    },
+    {
+        "id": 15,
+        "nombre": "Alimento Balanceado Blue Receta Salmón",
+        "precio": 420,
+        "imagen": "A3.jpg",
+        "categoria": "alimento"
+    },
+    {
+        "id": 16,
+        "nombre": "Alimento Holístico Orgánico",
+        "precio": 300,
+        "imagen": "A4.jpg",
+        "categoria": "alimento"
+    },
+    {
+        "id": 17,
+        "nombre": "Alimento Cesar",
+        "precio": 220,
+        "imagen": "A5.jpg",
+        "categoria": "alimento"
+    },
+    {
+        "id": 18,
+        "nombre": "Croquetas Pedigree",
+        "precio": 110,
+        "imagen": "A6.jpg",
+        "categoria": "alimento"
+    },
+    {
+        "id": 19,
+        "nombre": "Croquetas Chop",
+        "precio": 500,
+        "imagen": "A7.jpg",
+        "categoria": "alimento"
+    },
+    {
+        "id": 20,
+        "nombre": "Croquetas Perron",
+        "precio": 220,
+        "imagen": "A8.jpg",
+        "categoria": "alimento"
+    },
+
+    {
+        "id": 21,
+        "nombre": "Natural Relax",
+        "precio": 289,
+        "imagen": "M1.jpg",
+        "categoria": "medicamentos"
+    },
+    {
+        "id": 22,
+        "nombre": "Noise Reduction Calming Spray",
+        "precio": 249,
+        "imagen": "M2.jpg",
+        "categoria": "medicamentos"
+    },
+    {
+        "id": 23,
+        "nombre": "Expectrum Doxiciclina",
+        "precio": 329,
+        "imagen": "M3.jpg",
+        "categoria": "medicamentos"
+    },
+    {
+        "id": 24,
+        "nombre": "Total Full Estómago",
+        "precio": 219,
+        "imagen": "M4.jpg",
+        "categoria": "medicamentos"
+    },
+    {
+        "id": 25,
+        "nombre": "Artriofin Antiinflamatorio",
+        "precio": 379,
+        "imagen": "M5.png",
+        "categoria": "medicamentos"
+    },
+    {
+        "id": 26,
+        "nombre": "Advocate Protección Integral",
+        "precio": 459,
+        "imagen": "M6.jpg",
+        "categoria": "medicamentos"
+    },
+    {
+        "id": 27,
+        "nombre": "NexGard Spectra",
+        "precio": 529,
+        "imagen": "M7.jpg",
+        "categoria": "medicamentos"
+    },
+    {
+        "id": 28,
+        "nombre": "Shampoo Dermatológico",
+        "precio": 199,
+        "imagen": "M8.jpg",
+        "categoria": "medicamentos"
+    },
+    {
+        "id": 29,
+        "nombre": "Vet Inmune",
+        "precio": 349,
+        "imagen": "M9.jpg",
+        "categoria": "medicamentos"
+    },
+    {
+        "id": 30,
+        "nombre": "Doxipets",
+        "precio": 289,
+        "imagen": "M10.jpg",
+        "categoria": "medicamentos"
+    },
+    {
+        "id": 31,
+        "nombre": "Doxitel Doxiciclina",
+        "precio": 319,
+        "imagen": "M11.jpg",
+        "categoria": "medicamentos"
+    },
+    {
+        "id": 32,
+        "nombre": "Condrovet Suplemento Articular",
+        "precio": 429,
+        "imagen": "M12.jpg",
+        "categoria": "medicamentos"
+    },
+
+    {
+        "id": 33,
+        "nombre": "Vestido rosa",
+        "precio": 120,
+        "imagen": "R1.png",
+        "categoria": "ropa"
+    },
+    {
+        "id": 34,
+        "nombre": "Camiseta",
+        "precio": 100,
+        "imagen": "R2.png",
+        "categoria": "ropa"
+    },
+    {
+        "id": 35,
+        "nombre": "Vestido formal",
+        "precio": 420,
+        "imagen": "R3.png",
+        "categoria": "ropa"
+    },
+    {
+        "id": 36,
+        "nombre": "Esmoquin",
+        "precio": 520,
+        "imagen": "R4.png",
+        "categoria": "ropa"
+    },
+    {
+        "id": 37,
+        "nombre": "Sueter",
+        "precio": 220,
+        "imagen": "R5.jpg",
+        "categoria": "ropa"
+    },
+    {
+        "id": 38,
+        "nombre": "Croquetas premium",
+        "precio": 220,
+        "imagen": "R6.jpg",
+        "categoria": "ropa"
+    }
+]
